@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Ant Design and icejs scaffold, use TypeScript.",
   "scripts": {
+    "install": "npm install --registry=https://registry.npm.taobao.org",
     "dev": "npm run start",
     "start": "icejs start --config build.config.js",
     "build": "icejs build --config build.config.js",
@@ -14,17 +15,21 @@
     "@ant-design/icons": "^4.0.2",
     "@ant-design/pro-layout": "^6.5.1",
     "@antv/auto-chart": "^2.0.2",
+    "@antv/data-wizard": "2.0.0",
     "@antv/g2plot": "^2.4.10",
     "@antv/g6": ">=4.3.11",
     "@antv/lite-insight": "^2.0.0",
+    "@antv/narrative-text-vis": "^0.1.7",
+    "@antv/s2": "^1.13.0",
+    "@antv/s2-react": "^1.12.0",
     "@antv/smart-board": "^2.0.0",
-    "@antv/data-wizard": "2.0.0",
     "antd": "^4.19.2",
     "antv-site-demo-rc": "^0.1.0",
     "moment": "^2.24.0",
     "prop-types": "^15.5.8",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-json-view": "^1.21.3"
   },
   "devDependencies": {
     "@iceworks/spec": "^1.0.1",
