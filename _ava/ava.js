@@ -4,17 +4,12 @@ import ReactDOM from 'react-dom';
 import { AutoChart } from '@antv/auto-chart';
 
 const data = [
-  { field1: 'a', field2: '100' },
-  { field1: 'b', field2: '300' },
-  { field1: 'c', field2: '800' },
+  { f1: '2019-01', f2: 100 },
+  { f1: '2019-02', f2: 300 },
+  { f1: '2019-03', f2: 340 },
+  { f1: '2019-04', f2: 330 },
 ];
 
-function App() {
-  return (
-    <div>
-      <AutoChart title="CASE 1" description="auto chart analysis" data={data} language={'zh-CN'} />
-    </div>
-  );
-}
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<div>
+  <AutoChart data={data} />
+</div>, document.getElementById('root'));
