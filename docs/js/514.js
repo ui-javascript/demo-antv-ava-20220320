@@ -1486,7 +1486,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var o=n(99399).isPrimitive,s=n(77494);function f(l){return l!==null&&typeof l=="object"&&o(l.length)&&l.length<=s&&typeof l.BYTES_PER_ELEMENT=="number"&&typeof l.byteOffset=="number"&&typeof l.byteLength=="number"}a.exports=f},24694:function(a,c,n){"use strict";/**
+*/var o=n(99399).isPrimitive,s=n(50921);function f(l){return l!==null&&typeof l=="object"&&o(l.length)&&l.length<=s&&typeof l.BYTES_PER_ELEMENT=="number"&&typeof l.byteOffset=="number"&&typeof l.byteLength=="number"}a.exports=f},24694:function(a,c,n){"use strict";/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
@@ -2350,7 +2350,7 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*/var c=4294967295;a.exports=c},77494:function(a){"use strict";/**
+*/var c=4294967295;a.exports=c},50921:function(a){"use strict";/**
 * @license Apache-2.0
 *
 * Copyright (c) 2018 The Stdlib Authors.
