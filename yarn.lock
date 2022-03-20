@@ -215,9 +215,9 @@
     "@antv/util" "~2.0.12"
     "tslib" "^2.1.0"
 
-"@antv/data-wizard@^2.0.0":
+"@antv/data-wizard@^2.0.0", "@antv/data-wizard@2.0.0":
   "integrity" "sha512-PxDY8l1xzApcPw0JjFqdF5+utwVbaWOQ9O0GA1VsVmxgXV/FXNsHmRH3Tam6VrIZs/SY5x/yPffOoJ3kFCJKXw=="
-  "resolved" "https://registry.npmmirror.com/@antv/data-wizard/-/data-wizard-2.0.0.tgz"
+  "resolved" "https://registry.npmjs.org/@antv/data-wizard/-/data-wizard-2.0.0.tgz"
   "version" "2.0.0"
   dependencies:
     "@antv/algorithm" "^0.1.12"
