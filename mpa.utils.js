@@ -64,8 +64,8 @@ exports.getEntry = function getEntry(globPath) {
     entries[uuid] = entry;
   });
 
-  console.log('-------页面--------');
-  console.log(browserPages);
+  // console.log('-------页面--------');
+  // console.log(browserPages);
 
   return {
     entry: entries,

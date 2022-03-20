@@ -8,6 +8,7 @@ module.exports = {
   define: {
     env: process.env.NODE_ENV,
   },
+  // vite: true,
   minify: 'esbuild',
   // entry: {
   //   demo: '_demo/index',

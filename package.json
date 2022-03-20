@@ -2,6 +2,14 @@
   "name": "appworks-demo-20220311",
   "version": "0.1.0",
   "description": "Ant Design and icejs scaffold, use TypeScript.",
+  "scripts": {
+    "dev": "npm run start",
+    "start": "icejs start --config build.config.js",
+    "build": "icejs build --config build.config.js",
+    "lint": "npm run eslint && npm run stylelint",
+    "eslint": "eslint --cache --ext .js,.jsx ./",
+    "stylelint": "stylelint ./**/*.scss"
+  },
   "dependencies": {
     "@ant-design/icons": "^4.0.2",
     "@ant-design/pro-layout": "^6.5.1",
@@ -20,14 +28,6 @@
     "eslint": "^7.30.0",
     "ice.js": "^2.0.0",
     "stylelint": "^13.1.0"
-  },
-  "scripts": {
-    "dev": "npm run start",
-    "start": "icejs start --config build.config.js",
-    "build": "icejs build --config build.config.js",
-    "lint": "npm run eslint && npm run stylelint",
-    "eslint": "eslint --cache --ext .js,.jsx ./",
-    "stylelint": "stylelint ./**/*.scss"
   },
   "repository": {
     "type": "git",

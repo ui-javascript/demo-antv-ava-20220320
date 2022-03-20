@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-function Dashboard() {
+function App() {
   return (
     <div>
       <h2>Demo Page</h2>
@@ -9,4 +9,4 @@ function Dashboard() {
   );
 }
 
-ReactDOM.render(<Dashboard />, document.getElementById("ice-container"))
+ReactDOM.render(<App />, document.getElementById("ice-container"))
