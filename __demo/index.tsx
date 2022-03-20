@@ -9,4 +9,4 @@ function App() {
   );
 }
 
-ReactDOM.render(<App />, document.getElementById("ice-container"))
+ReactDOM.render(<App />, document.getElementById("root"))
