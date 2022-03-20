@@ -1,6 +1,5 @@
 # README
 
-- 不要启动vite模式
 - @code https://github.com/ui-javascript/demo-ava-20220320
 - @ide https://uijavascript-demoava2022-xppm3yhft14.ws-us38.gitpod.io/
 - @demo
@@ -13,3 +12,14 @@
 ![](https://luo0412.oss-cn-hangzhou.aliyuncs.com/1647813333096-M4HGD73j87KZ.png)
 
 ![](https://luo0412.oss-cn-hangzhou.aliyuncs.com/1647813304028-rbh6shiKzzGF.png)    
+
+# 常见问题 @bug
+
+- 不要启动vite模式
+
+```
+icejs还不支持
+
+===
+@ps vite的多页面模式要求绑定视图作为入口, 我认为这样设计是错的...
+```
